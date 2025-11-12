@@ -6,4 +6,6 @@ st.write("Welcome to your first Streamlit app.")
 name = st.text_input("Hey what's your name?")
 
 if name:
-    st.success(f"Hello, {name}, welcome to the app.")
+    st.success(f"Hello {name}, welcome to the app.")
+
+st.balloons()
